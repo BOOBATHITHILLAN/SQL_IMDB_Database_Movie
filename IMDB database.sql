@@ -7,7 +7,7 @@ use IMDB;
 create table Movie(
 id INT PRIMARY KEY NOT NULL,
 title VARCHAR(255) NOT NULL,
-release_year INT NOT NULL,
+release_year INT,
 duration VARCHAR(15) 
 );
 
