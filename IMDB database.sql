@@ -8,7 +8,7 @@ create table Movie(
 id INT PRIMARY KEY NOT NULL,
 title VARCHAR(255) NOT NULL,
 release_year INT NOT NULL,
-duration TIME NOT NULL
+duration VARCHAR(15) 
 );
 
 insert into movie(id,title,release_year,duration) values(1,'Maamannan',2023, '157m');
